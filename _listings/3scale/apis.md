@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: Suspend
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
@@ -38,6 +38,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/3scale/adminapiaccountsaccount-idusersidsuspend-xml-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/3scale/adminapiaccountsaccount-idusersidsuspend-xml-put-openapi.md
+- name: 3Scale Account Management API - User Suspend (provider account)
+  x-api-slug: adminapiusersidsuspend-xml-put
+  description: User suspend (provider account).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/3scale/adminapiusersidsuspend-xml-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://3scale.api.gallery.streamdata.io

@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: 3scale
 x-complete: 0
 info:
-  title: 3Scale Account Management API User Suspend
-  description: User suspend.
+  title: 3Scale Account Management API User Suspend (provider account)
+  description: User suspend (provider account).
   termsOfService: http://www.3scale.net/terms-and-conditions/
   contact:
     name: 3Scale
@@ -63,6 +63,27 @@ paths:
       tags:
       - User
       - Suspend
+  /admin/api/users/{id}/suspend.xml:
+    put:
+      summary: User Suspend (provider account)
+      description: User suspend (provider account).
+      operationId: user_provider_account
+      x-api-path-slug: adminapiusersidsuspend-xml-put
+      parameters:
+      - in: path
+        name: id
+        description: id of the user
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Suspend
+      - (provider
+      - Account)
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

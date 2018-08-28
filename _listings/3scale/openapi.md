@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: 3scale
 x-complete: 1
@@ -18,4 +17,69 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /admin/api/accounts/{account_id}/applications/{id}/suspend.xml:
+    put:
+      summary: Application Suspend
+      description: Application suspend.
+      operationId: application
+      x-api-path-slug: adminapiaccountsaccount-idapplicationsidsuspend-xml-put
+      parameters:
+      - in: path
+        name: account_id
+        description: id of the account
+      - in: path
+        name: id
+        description: id of the application
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Application
+      - Suspend
+  /admin/api/accounts/{account_id}/users/{id}/suspend.xml:
+    put:
+      summary: User Suspend
+      description: User suspend.
+      operationId: user
+      x-api-path-slug: adminapiaccountsaccount-idusersidsuspend-xml-put
+      parameters:
+      - in: path
+        name: account_id
+        description: id of the account
+      - in: path
+        name: id
+        description: id of the user
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Suspend
+  /admin/api/users/{id}/suspend.xml:
+    put:
+      summary: User Suspend (provider account)
+      description: User suspend (provider account).
+      operationId: user_provider_account
+      x-api-path-slug: adminapiusersidsuspend-xml-put
+      parameters:
+      - in: path
+        name: id
+        description: id of the user
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Suspend
+      - (provider
+      - Account)

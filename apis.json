@@ -1,0 +1,185 @@
+{
+	"name": "Streadata.io API Gallery - Suspend",
+	"description": "This is a repository of suspend APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/suspend.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://suspend.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Okta",
+			"x-api-slug": "okta",
+			"description": "Provide secure identity management and single sign-on to any application, whether in the cloud, on-premises or on a mobile device for your employees, partners and customers with Okta.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg",
+			"humanURL": "https://www.okta.com",
+			"baseURL": "https://example.com//api/v1",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/okta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS S3",
+			"x-api-slug": "aws-s3",
+			"description": "Amazon Simple Storage Service (Amazon S3) is object storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. It is designed to deliver 99.999999999% durability, and scale past trillions of objects worldwide.Customers use S3 as a bulk repository, or data lake, for analytics; backup &amp; recovery; disaster recovery; and serverless computing. Many cloud-native applications even use S3 as primary storage.Its simple to move large volumes of data into or out of S3 with Amazonscloud data migrationoptions. Once data is stored in Amazon S3, it can be automatically tiered into lower cost, longer-termcloud storageclasses like S3 Standard - Infrequent Access and Amazon Glacier for archiving.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png",
+			"humanURL": "https://aws.amazon.com/s3/",
+			"baseURL": "https:////",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/aws-s3/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"x-api-slug": "aws-auto-scaling",
+			"description": "Auto Scaling helps you maintain application availability and allows you to scale yourAmazon EC2capacity up or down automatically according to conditions you define. You can use Auto Scaling to help ensure that you are running your desired number of Amazon EC2 instances. Auto Scaling can also automatically increase the number of Amazon EC2 instances during demand spikes to maintain performance and decrease capacity during lulls to reduce costs. Auto Scaling is well suited both to applications that have stable demand patterns or that experience hourly, daily, or weekly variability in usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png",
+			"humanURL": "https://aws.amazon.com/autoscaling/",
+			"baseURL": ":///",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/aws-auto-scaling/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/kaltura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Suspend",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Suspend",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "Okta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/okta/apis.yaml"
+		},
+		{
+			"name": "AWS S3",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/aws-s3/apis.yaml"
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/aws-auto-scaling/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/kaltura/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/ringcentral/apis.yaml"
+		}
+	]
+}

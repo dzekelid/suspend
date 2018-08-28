@@ -14,11 +14,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kalt
 x-kinRank: "7"
 x-alexaRank: "23496"
 tags: Suspend
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/kaltura/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Kaltura VPaaS - Get Service Batch Action Suspendjobs
+  x-api-slug: servicebatchactionsuspendjobs-get
+  description: batch suspendJobs action suspends jobs from running.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/kaltura/servicebatchactionsuspendjobs-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suspend/master/_listings/kaltura/servicebatchactionsuspendjobs-get-openapi.md
 - name: Kaltura VPaaS - Get Service Batch Action Suspendjobs
   x-api-slug: servicebatchactionsuspendjobs-get
   description: batch suspendJobs action suspends jobs from running.
